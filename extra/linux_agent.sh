@@ -2,9 +2,9 @@
 
 # Install dependencies
 sudo apt update
-sudo apt install build-essential curl net-tools python3-pip -y
 sudo apt install python3-distutils -y
 sudo apt install systemtap-runtime -y
+sudo apt install build-essential curl net-tools python3-pip -y
 sudo pip3 install pyinotify
 
 # agent.py installation
